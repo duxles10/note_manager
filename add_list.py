@@ -8,6 +8,8 @@ title2 = input('Введите подзаголовок №2: ')
 
 title3 = input('Введите подзаголовок №3: ')
 
+titles = [title1, title2, title3]
+
 content = input('Введите описание: ')
 
 status = input('Укажите статус заметки: ')
@@ -20,11 +22,7 @@ print('Имя пользователя:', username)
 
 print('Заголовок заметки:', title)
 
-print('Подзаголовок №1 заметки:', title1)
-
-print('Подзаголовок №2 заметки:', title2)
-
-print('Подзаголовок №3 заметки:', title3)
+print('Подзаголовки заметки:', titles)
 
 print('Описание заметки:', content)
 
