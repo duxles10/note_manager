@@ -6,10 +6,10 @@ notes = [
 
 ]
 
-print(notes[0])
-print(notes[1])
-print(notes[2])
-print(notes[3])
-print(notes[4])
-print(notes[5])
-print(notes[6])
+print('Имя пользователя:', notes[0])
+print('Заголовок заметки:', notes[1])
+print('Подзаголовки заметки:', notes[2])
+print('Описание заметки:', notes[3])
+print('Статус заметки:', notes[4])
+print('Дата создания заметки:', notes[5])
+print('Дата истечения заметки:', notes[6])
